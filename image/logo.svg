@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="120mm"
+   viewBox="0 0 210 120"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="рисунок.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52410025"
+     inkscape:cx="585.7658"
+     inkscape:cy="592.44391"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="103.03372"
+       y="145.01044"
+       width="569.54755"
+       height="143.10239"
+       id="rect3015" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g7508"
+       transform="matrix(1.3076273,0,0,1.3076273,-46.571789,-14.297496)">
+      <path
+         id="path860"
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.20526;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 106.51482,46.294586 a 44.485305,44.119625 0 0 1 43.11579,-33.25654 44.485305,44.119625 0 0 1 44.4853,44.119625 v 0 a 44.485305,44.119625 0 0 1 -44.4853,44.119619 44.485305,44.119625 0 0 1 -43.17439,-33.487893" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.56852328,0,0,0.50888836,-23.416416,-27.830506)"
+         id="text3013"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;white-space:pre;shape-inside:url(#rect3015);fill:#000000;fill-opacity:1;stroke:none"><tspan
+           x="103.0332"
+           y="181.50298"
+           id="tspan7519">GlassMaster</tspan></text>
+    </g>
+  </g>
+</svg>
