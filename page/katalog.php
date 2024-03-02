@@ -25,7 +25,7 @@ $result = mysqli_query($conn, $sql);
             </div>
             <nav>
                 <a href="../index.php">Главная</a>
-                <a href="katalog">Каталог</a>
+                <a href="katalog.php">Каталог</a>
                 <a href="">Заказ</a>
                 <a href="">Контакты</a>
                 <?php
@@ -44,19 +44,18 @@ $result = mysqli_query($conn, $sql);
                 <?php
                 
                 while($row=mysqli_fetch_array($result)){
-                    echo $row['name'];
+                     echo "<div class='tovar'>
+                                <img src='../image/tovars/".$row['img']."'>
+                                <h1>".$row['name']."</h1>
+                                <p>".$row['price']."</p>
+                                <input type='button' value='В корзину'>
+                            </div>";
                 }
                 
                 ?>
+                
             </div>
         </div>
     </div>
-    
-    <content>
-    
-    </content>
-    <footer>
-    
-    </footer>
 </body>
 </html>

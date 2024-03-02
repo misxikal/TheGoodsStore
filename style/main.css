@@ -1,12 +1,15 @@
 html,body{
     margin: 0;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     background-image: url(../image/6796996dc4350f1acc78b591c2748357.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
 .backimg{
     background-color: rgba(0, 0, 0, 0.13);
@@ -32,12 +35,12 @@ nav {
     justify-content: space-evenly;
 }
 nav a {
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(255, 255, 255, 0.212);
     text-align: center;
     width: 150px;
     font-size: 16px;
     padding: 10px;
-    margin: 0;
+    margin: 4px;
     color: white;
     text-decoration: none;
     transition: all .2s ease-out;
@@ -53,4 +56,47 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     background: none;
+}
+.katalog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tovar{
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.268);
+    backdrop-filter: blur(17px);
+    padding: 10px;
+    height: 500px;
+}
+.tovar img{
+    width: 300px;
+    height: 300px;
+}
+.tovar h1{
+    text-align: center;
+    font-size: 32px;
+    margin: 5px;
+}
+.tovar p{
+    font-size: 16px;
+}
+.tovar input{
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.252);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.tovar input:hover{
+    background-color: rgba(0, 0, 0, 0.352);
+
 }

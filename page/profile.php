@@ -48,12 +48,5 @@ if(isset($_POST['destr'])){
             </form>
         </div>
     </div>
-    
-    <content>
-    
-    </content>
-    <footer>
-    
-    </footer>
 </body>
 </html>

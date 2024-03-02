@@ -34,12 +34,5 @@ session_start();
             <h1>Бла бла бла</h1>
         </div>
     </div>
-    
-    <content>
-    
-    </content>
-    <footer>
-    
-    </footer>
 </body>
 </html>
