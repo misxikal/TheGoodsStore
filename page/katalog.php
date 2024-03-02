@@ -47,9 +47,11 @@ $result = mysqli_query($conn, $sql);
                      echo "<div class='tovar'>
                                 <img src='../image/tovars/".$row['img']."'>
                                 <h1>".$row['name']."</h1>
-                                <p>".$row['price']."</p>
-                                <input type='button' value='В корзину'>
-                            </div>";
+                                <p>".$row['price']." р.</p>";
+                                if(isset($_SESSION['id'])){
+                                    echo "<input type='button' value='В корзину'>";
+                                }
+                            echo "</div>";
                 }
                 
                 ?>
