@@ -10,6 +10,9 @@ session_start();
     <link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
+    <div class="exitinindex">
+        <a href="../index.php"><img src="../image/free-icon-close-6276642.png" alt=""></a>
+    </div>
     <div class="backimg">
         <form action="../php/reg.php" method="post">
             <h1>Регистрация</h1>

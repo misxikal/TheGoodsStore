@@ -11,12 +11,11 @@ $result = mysqli_query($conn,$sql);
 
 $row = mysqli_fetch_array($result);
 
-if($row['Login'] == $login && $row['Password'] == $password){
+if($result && $row['Login'] == $login && $row['Password'] == $password){
     $_SESSION['id']=$row['id'];
     echo "Авторизация прошла успешно";
     header("Location: ../index.php");
 }else{
     echo "Что-то не так";
 }
-
 ?>

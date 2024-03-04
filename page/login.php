@@ -10,11 +10,14 @@ session_start();
     <link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
+    <div class="exitinindex">
+        <a href="../index.php"><img src="../image/free-icon-close-6276642.png" alt=""></a>
+    </div>
     <div class="backimg">
         <form action="../php/log.php" method="post">
             <h1>Вход</h1>
-            <input type="text" name="login" placeholder="Логин">
-            <input type="password" name="password" placeholder="Пароль">
+            <input type="text" name="login" placeholder="Логин" require>
+            <input type="password" name="password" placeholder="Пароль" require>
             <input type="submit" id="login" value="Войти">
             <a href="register.php">Зарегистрироваться</a>
         </form>
